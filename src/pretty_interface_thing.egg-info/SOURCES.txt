@@ -1,6 +1,12 @@
+LICENSE
 pyproject.toml
 src/pit/__init__.py
+src/pit/convertor/__init__.py
+src/pit/convertor/convertor.py
+src/pit/manager/__init__.py
+src/pit/manager/manager.py
 src/pretty_interface_thing.egg-info/PKG-INFO
 src/pretty_interface_thing.egg-info/SOURCES.txt
 src/pretty_interface_thing.egg-info/dependency_links.txt
+src/pretty_interface_thing.egg-info/requires.txt
 src/pretty_interface_thing.egg-info/top_level.txt

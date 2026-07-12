@@ -1,9 +1,24 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "pretty-interface-thing"
-version = "0.0.0"
-description = "Awesome interface library for pygame. Coming soon!"
+version = "0.0.1"
+description = "UI library for building interfaces in your pygame games and apps."
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = ["pygame-ce>=2.5"]
 authors = [{name = "Imoze", email = "game-f-90@mail.ru"}]
+
+[project.urls]
+Homepage = "https://github.com/imoze/Pretty-Interface-Thing-P.I.T.-"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = "-ra --import-mode=importlib"
+testpaths = ["tests"]
+markers = []

@@ -1,1 +1,6 @@
 venv/
+.pytest_cache/
+src/pit/__pycache__
+src/pit/convertor/__pycache__
+src/pit/manager/__pycache__
+tests/__pycache__

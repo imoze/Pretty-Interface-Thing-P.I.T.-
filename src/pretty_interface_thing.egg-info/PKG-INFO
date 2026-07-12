@@ -1,5 +1,11 @@
 Metadata-Version: 2.4
 Name: pretty-interface-thing
-Version: 0.0.0
-Summary: Awesome interface library for pygame. Coming soon!
+Version: 0.0.1
+Summary: UI library for building interfaces in your pygame games and apps.
 Author-email: Imoze <game-f-90@mail.ru>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/imoze/Pretty-Interface-Thing-P.I.T.-
+Requires-Python: >=3.12
+License-File: LICENSE
+Requires-Dist: pygame-ce>=2.5
+Dynamic: license-file
